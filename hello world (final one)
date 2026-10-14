@@ -1,3 +1,6 @@
+print(**)
 print ('Hola mundo')
 print ('Ecribe tu edad')
-input()
+nom=input()
+print('Tienes 600 años')
+print(**)

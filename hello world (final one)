@@ -3,6 +3,12 @@ print('Quin és')
 no=input('el teu nom?\n')
 print('hola',no)
 
+num=1
+print(num)
+num=2,5
+print(num)
+num='ups'
+print(num)
 
 print ('Hola mundo')
 print ('Ecribe tu edad')

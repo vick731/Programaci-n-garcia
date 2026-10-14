@@ -1,8 +1,9 @@
 print(**)
-print('Quin és el teu nom?')
-nom=input()
+print('Quin és')
+no=input('el teu nom?\n')
+print('hola',no)
 
-print(**)
+
 print ('Hola mundo')
 print ('Ecribe tu edad')
 nom=input()

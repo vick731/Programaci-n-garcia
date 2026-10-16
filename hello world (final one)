@@ -1,4 +1,4 @@
-print(**)
+print("")
 
 print('Quin és')
 no=input('el teu nom?\n')
@@ -16,4 +16,4 @@ print ('Ecribe tu edad')
 nom=input()
 print('Tienes 600 años')
 
-print(**)
+print("")

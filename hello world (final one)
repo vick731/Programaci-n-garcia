@@ -1,4 +1,5 @@
 print(**)
+
 print('Quin és')
 no=input('el teu nom?\n')
 print('hola',no)
@@ -14,4 +15,5 @@ print ('Hola mundo')
 print ('Ecribe tu edad')
 nom=input()
 print('Tienes 600 años')
+
 print(**)

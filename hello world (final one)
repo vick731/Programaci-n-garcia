@@ -11,9 +11,10 @@ print(num)
 num='ups'
 print(num)
 
+print('En quin any vas neixer?')
+any=input('')
+print()
+
 print ('Hola mundo')
-print ('Ecribe tu edad')
-nom=input()
-print('Tienes 600 años')
 
 print("")

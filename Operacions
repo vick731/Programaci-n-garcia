@@ -1,14 +1,41 @@
 print("")
 
 #Dedes
+...
 n1=int(input('escriu un numero\n'))
+n2=int(input('escriu un altre numero\n'))
+
+print('Potencia:',n1,'^',n2,'=',n1**n2)
+...
+
+#Increment de variables
+...
+num1=1
+print(num)
+num=num+1    #suna i el valor de la variable
+print(num)
+num=num+1    #increment en 1 el valor de la variable
+...
+
+#Intercanvi de variables
+...
+print('La primera variable val:',n1,'\n')
+print('La segona variable val:',n2,'\n')
+aux=n1 #variable auxiliar
+n1=n2
+n2=aux
+print('Ara la primera variable val:',n1,'\n')
+print('Ara la segona variable val:',n2,'\n')
+...
 
 #Textos
+...
 t1=input('escriu un text\n')
 t2=input('escriu un altre text\n')
 
 print('\n\033[OPERACIONS AMB CARÀCTERS\033[0n\n')
 print('Concatenar:',t1+t2,'\n')
 print('Multiplicació:',t1*t2,'\n')
+...
 
 print("")

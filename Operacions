@@ -1,3 +1,14 @@
 print("")
 
+#Dedes
+n1=int(input('escriu un numero\n'))
+
+#Textos
+t1=input('escriu un text\n')
+t2=input('escriu un altre text\n')
+
+print('\n\033[OPERACIONS AMB CARÀCTERS\033[0n\n')
+print('Concatenar:',t1+t2,'\n')
+print('Multiplicació:',t1*t2,'\n')
+
 print("")

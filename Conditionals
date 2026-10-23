@@ -1,0 +1,13 @@
+print("")
+
+#Números
+n1=int(input('escriu un número\n'))
+n2=int(input('escriu un altre número\n'))
+
+if(n1+n2 > 10): {
+    print('La seva suma és més gran que 10')
+}
+
+#Simplificació de if en una línia; if(n1+n2 > 10): print('La seva suma és més gran que 10')
+
+print("")

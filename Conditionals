@@ -13,10 +13,7 @@ else: {
 
 #Simplificació de if en una línia; if(n1+n2 > 10): print('La seva suma és més gran que 10')
 
-if(n1+n2 > 8):
-    print('La seva suma és més gran que 8')
-
-if(n1+n2 < 4):
-    print('La seva suma és més petita que 4')
+if(n1+n2 > 8 or n1+n2 < 4):
+    print('La seva suma és més gran que 8 o més petita que 4')
 
 print("")

@@ -7,6 +7,9 @@ n2=int(input('escriu un altre número\n'))
 if(n1+n2 > 10): {
     print('La seva suma és més gran que 10')
 }
+else: {
+    print('La seva suma és més petita que 10')
+}
 
 #Simplificació de if en una línia; if(n1+n2 > 10): print('La seva suma és més gran que 10')
 

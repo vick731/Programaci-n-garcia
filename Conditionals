@@ -16,4 +16,13 @@ else: {
 if(n1+n2 > 8 or n1+n2 < 4):
     print('La seva suma és més gran que 8 o més petita que 4')
 
+
+#
+#
+
+#Operador not.
+if not (n1+n2 == 13): {
+    print('La seva suma no és 13')
+}
+
 print("")

@@ -18,6 +18,7 @@ if(n1+n2 > 8 or n1+n2 < 4):
 
 
 #
+
 #
 
 #Operador not.

@@ -2,4 +2,9 @@ print('')
 
 #Fer un programa que demani dos números i et pregunti si vols sumar-los, restar-los, multiplicar-los, dividir-los, elevar-los, fer el módul o la divisió entera.
 
+#Números
+n1=int(input('escriu un número\n'))
+n2=int(input('escriu un altre número\n'))
+
+
 print('')

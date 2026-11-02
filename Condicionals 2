@@ -18,7 +18,6 @@ elif operacio == "multiplicar": {print(n1 * n2) or print(n2 * n1)}
 elif operacio == "dividir": {print(n1 / n2) or print(n2 / n1)}
 elif operacio == "elevar": {print(n1 ** n2) or print(n2 ** n1)}
 elif operacio == "divició entera": {print(n1 // n2) or print(n2 // n1)}
-
-else print("Operació no vàlida")
+else: print("Operació no vàlida")
 
 print('')

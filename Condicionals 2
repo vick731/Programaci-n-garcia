@@ -13,11 +13,13 @@ print('en quin ordre?')
 print(int(input('1. n1 operació n2 o 2. n2 operacio n1? (Escriu 1 o 2):')))
 
 if operacio == "sumar": {print(n1 + n2) or print(n2 + n1)}
-if operacio == "restar": {print(n1 - n2) or print(n2 - n1)}
-if operacio == "multiplicar": {print(n1 * n2) or print(n2 * n1)}
-if operacio == "dividir": {print(n1 / n2) or print(n2 / n1)}
-if operacio == "elevar": {print(n1 ** n2) or print(n2 ** n1)}
-if operacio == "divició entera": {print(n1 // n2) or print(n2 // n1)}
+elif operacio == "restar": {print(n1 - n2) or print(n2 - n1)}
+elif operacio == "multiplicar": {print(n1 * n2) or print(n2 * n1)}
+elif operacio == "dividir": {print(n1 / n2) or print(n2 / n1)}
+elif operacio == "elevar": {print(n1 ** n2) or print(n2 ** n1)}
+elif operacio == "divició entera": {print(n1 // n2) or print(n2 // n1)}
+
+else print("Operació no vàlida")
 
 
 #Dedes

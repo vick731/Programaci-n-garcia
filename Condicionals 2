@@ -1,25 +1,34 @@
 print('')
 
-#Fer un programa que demani dos números i et pregunti si vols sumar-los, restar-los, multiplicar-los, dividir-los, elevar-los, fer el módul o la divisió entera.
+#Fer un programa que demani dos números i et pregunti si vols sumar-los, restar-los, multiplicar-los, dividir-los, elevar-los o la divisió entera.
 
 #Preguntar a ari, fer recerca
 
-#Dedes
-...
-n1=int(input('escriu un numero\n'))
-n2=int(input('escriu un altre numero\n'))
+n1=int(input('escriu un número\n'))
+n2=int(input('escriu un altre número\n'))
 
 print('Quina operació vols fer?')
-print('Suma')
-print('Resta')
-print('Multiplicació')
-print('Divisió entera')
-print('Potencia')
-print('Residu')
+operacio = input('Escriu sumar, restar, multiplicar, dividir, elevar, divició entera:')
+print('en quin ordre?')
+print(int(input('1. n1 operació n2 o 2. n2 operacio n1? (Escriu 1 o 2):')))
+
+if operacio == "sumar": {print(n1 + n2) or print(n2 + n1)}
+if operacio == "restar": {print(n1 - n2) or print(n2 - n1)}
+if operacio == "multiplicar": {print(n1 * n2) or print(n2 * n1)}
+if operacio == "dividir": {print(n1 / n2) or print(n2 / n1)}
+if operacio == "elevar": {print(n1 ** n2) or print(n2 ** n1)}
+if operacio == "divició entera": {print(n1 // n2) or print(n2 // n1)}
+
+
+#Dedes
+...
+n1=int(input('escriu un número\n'))
+n2=int(input('escriu un altre número\n'))
 
 print('Suma:',n1,'+',n2,'=',n1+n2)
 print('Resta:',n1,'-',n2,'=',n1-n2)
 print('Multiplicació:',n1,'·',n2,'=',n1*n2)
+print('dividir:',n1,'/',n2,'=',n1/n2)
 print('Residu:',n1,'%',n2,'=',n1%n2)
 print('Divisió entera:',n1,'//',n2,'=',n1//n2)
 print('Potencia:',n1,'^',n2,'=',n1**n2)

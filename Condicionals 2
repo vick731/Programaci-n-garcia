@@ -21,22 +21,4 @@ elif operacio == "divició entera": {print(n1 // n2) or print(n2 // n1)}
 
 else print("Operació no vàlida")
 
-
-#Dedes
-...
-n1=int(input('escriu un número\n'))
-n2=int(input('escriu un altre número\n'))
-
-print('Suma:',n1,'+',n2,'=',n1+n2)
-print('Resta:',n1,'-',n2,'=',n1-n2)
-print('Multiplicació:',n1,'·',n2,'=',n1*n2)
-print('dividir:',n1,'/',n2,'=',n1/n2)
-print('Residu:',n1,'%',n2,'=',n1%n2)
-print('Divisió entera:',n1,'//',n2,'=',n1//n2)
-print('Potencia:',n1,'^',n2,'=',n1**n2)
-
-
-#Part 2: Escull si vols; ‘n1+n2’ o ‘n2+n1’.
-
-
 print('')

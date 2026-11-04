@@ -14,4 +14,8 @@ print (matriu [0])
 print (len[llista])
 print (len[matriu])
 
+#Parts d’una llista.
+print (llista [2,3,4,6,9])
+print(llista [1:4])
+
 print("")

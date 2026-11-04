@@ -2,6 +2,7 @@ print("")
 
 #Estructura per guardar més d’una variable. Conjunt de dades ordenades: [2, ‘hola’, 3.5]
 
+matriu= [[2],["hola"],[3.5]]
 print llista [o]
 print llista [1]
 print llista [2]
